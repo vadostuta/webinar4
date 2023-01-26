@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: initial
+}
+
+.container {
+    max-width: 1173px;
+    margin: 0 auto;
+    border: 3px solid brown;
+}
+
+.nav-top {
+    border: 3px solid yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bottom {
+    border: 3px solid black;
+}
+.nav-bottom nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 29px;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.nav-bottom nav ul {
+    display: flex;
+}
+.nav-bottom ul li {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #232233;
+}
+.nav-bottom .nav-bottom-left ul li, .nav-bottom .nav-bottom-right ul li {
+    margin-right: 40px;
+}
+.nav-bottom .nav-bottom-left ul li:last-child, .nav-bottom .nav-bottom-right ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-bottom .nav-bottom-left ul li.active a {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #5956E9;
+    text-underline-offset: 4px;
+}
+
+.nav-bottom .nav-bottom-right ul li.button a {
+    background: #5956E9;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 15px 8px 16px;
+}
+
+
+.nav-top-right {
+    border: 3px solid blue;
+    color: white;
+}
+.nav-top-right ul li {
+    margin-right: 30px;
+}
+.nav-top-right ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-top-right ul {
+    display: flex;
+}
+
+.nav-top-left {
+    border: 3px solid green;
+    display: flex;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav-top-left .email {
+    margin-right: 47px;
+}
